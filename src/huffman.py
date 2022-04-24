@@ -163,16 +163,3 @@ class HuffmanCoding:
 
         print("Descomprimido")
         return caminho_saida
-     def cria_frequencia(self, texto):
-        frequencia = {}
-        for caracter in texto:
-            if not caracter in frequencia:
-                frequencia[caracter] = 0
-            frequencia[caracter] += 1
-        return frequencia
-
-    def make_heap(self, frequencia):
-        for chave in frequencia:
-            node = self.HeapNode(chave, frequencia[chave])
-            heapq.heappush(self.heap, node)
-    
