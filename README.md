@@ -20,7 +20,7 @@ Temas:
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 190045485  |  Eduardo Gurgel |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
