@@ -20,11 +20,13 @@ Adicione 3 ou mais screenshots do projeto em funcionamento.
 **Linguagem**: Python<br>
 **Framework**: Tkinter, Numpy<br>
 
- * [Git](https://git-scm.com/)
- * [Python3](https://www.python.org/)
- * [tkinter](https://docs.python.org/3/library/tkinter.html)
- * [Numpy](https://numpy.org)
-           
+* Pré-requisitos
+  * [Git](https://git-scm.com/)
+  * [Python3](https://www.python.org/)
+  * [tkinter](https://docs.python.org/3/library/tkinter.html)
+  * [Numpy](https://numpy.org)
+
+
 * Clonar o repositório
 ```
 https://github.com/projeto-de-algoritmos/ImageCompressor.git
