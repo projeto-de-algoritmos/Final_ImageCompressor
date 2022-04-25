@@ -182,6 +182,11 @@ def comprimirImagem():
         data.save('imagem descomprimida.png')
         print("Descomprimida com sucesso")
 
+    im = Image.open(local).convert("RGB")
+    im.save(local, "png")
+
+    im.show()
+
 # Comprimir
 def compress():
 
@@ -242,7 +247,7 @@ select_file_label = customtkinter.CTkLabel(mainframe,
                                             fg_color=None)
 select_file_label.grid(row=0, column=0, pady=10, padx=30, sticky=(W))
 
-pathh = customtkinter.CTkEntry(mainframe, width=240)
+pathh = customtkinter.CTkEntry(mainframe, width=240, border_color = 'red')
 pathh.grid(row=0, column=1, columnspan=2, pady=5, padx=10, sticky=())
 
 select_file_btn1 = customtkinter.CTkButton(mainframe,
@@ -250,7 +255,7 @@ select_file_btn1 = customtkinter.CTkButton(mainframe,
                                            command=buscarArquivos,
                                             fg_color=None,
                                             border_width=2,
-                                            border_color=new_c,
+                                            border_color='red',
                                             hover_color=new_c)
 select_file_btn1.grid(row=0, column=3, pady=5, padx=10)
 
@@ -272,9 +277,9 @@ mob_btn = customtkinter.CTkButton(mainframe,
                                   command=comprimirImagem,
                                   fg_color=None,
                                   border_width=2,
-                                  border_color=new_c,
+                                  border_color='red',
                                   hover_color=new_c)
-mob_btn.grid(row=1, column=1, pady=5, padx=10, sticky=())
+mob_btn.grid(row=1, column=3, pady=5, padx=10, sticky=())
 
 
 #-- Botões ---#
@@ -287,7 +292,7 @@ clear_btn = customtkinter.CTkButton(mainframe,
                                     command=limpar,
                                     fg_color=None,
                                     border_width=2,
-                                    border_color=new_c,
+                                    border_color='red',
                                     hover_color=new_c)
 clear_btn.grid(row=4, column=4, pady=20, padx=10)
 
