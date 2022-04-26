@@ -1,4 +1,4 @@
-**Image Compressor** 
+**Final Image Compressor** 
 
 Temas:
  
